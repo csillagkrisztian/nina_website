@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import Switch from 'react-bootstrap/esm/Switch';
+import { Route } from 'react-router-dom';
 import './App.css';
+import CategoryPage from './components/CategoryPage';
+import HomePage from './components/HomePage';
+import { ABOUT_ME, GRAPHIC_DESIGN, ILLUSTRATIONS } from './routes';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Switch>
+        <Route path='/work/:category' component={CategoryPage}/>
+        <Route exact path="/">
+          <HomePage/>
+        </Route>
+      </Switch>
     </div>
   );
 }
