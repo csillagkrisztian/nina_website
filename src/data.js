@@ -27,6 +27,41 @@ import erikOfItLytsYnsekteboek8 from "./images/illustrations/books/erikOfItLytsY
 import erikOfItLytsYnsekteboek9 from "./images/illustrations/books/erikOfItLytsYnsekteboek/9 - boek.jpg";
 import erikOfItLytsYnsekteboek10 from "./images/illustrations/books/erikOfItLytsYnsekteboek/10 - boek.jpg";
 import erikOfItLytsYnsekteboek11 from "./images/illustrations/books/erikOfItLytsYnsekteboek/11 - bek.jpg";
+import assignments1 from "./images/illustrations/assignments/1 - Krystferhaal6B.jpg";
+import assignments2 from "./images/illustrations/assignments/2 - Yllustraasje Jan-Pyt Joris en Corneel.jpg";
+import assignments3 from "./images/illustrations/assignments/3 - Mûntsen 300 dpi.jpg";
+import assignments4 from "./images/illustrations/assignments/4 - EnkelA6staand voorkant.jpg";
+import assignments5 from "./images/illustrations/assignments/6 - Krystferhaal 2020 - 300 dpi.jpg";
+import assignments6 from "./images/illustrations/assignments/7 - Lykwein 300 dpi.jpg";
+import assignments7 from "./images/illustrations/assignments/8 - Tsjerke 300 dpi.jpg";
+import freeWork1 from "./images/illustrations/freeWork/Engel nieuw2.jpg";
+import freeWork2 from "./images/illustrations/freeWork/Frij wurk - Sterre van de zee grut.jpg";
+import freeWork3 from "./images/illustrations/freeWork/Tsjerkje fan Ketlik 600 dpi CMYK.jpg";
+import freeWork4 from "./images/illustrations/freeWork/Sorbysk 300.jpg";
+import freeWork5 from "./images/illustrations/freeWork/Ule kleuren CMYK 300 dpi.jpg";
+import freeWork6 from "./images/illustrations/freeWork/Vrouw2.jpg";
+import stainedGlass1 from "./images/illustrations/stainedGlass/DSC_6231 bew.jpg";
+import stainedGlass2 from "./images/illustrations/stainedGlass/DSC_6236.JPG";
+import stainedGlass3 from "./images/illustrations/stainedGlass/DSC_6237.JPG";
+import stainedGlass4 from "./images/illustrations/stainedGlass/DSC_6238.JPG";
+import stainedGlass5 from "./images/illustrations/stainedGlass/DSC_6433 bew.jpg";
+import stainedGlass6 from "./images/illustrations/stainedGlass/DSC_6434 bew.jpg";
+import stainedGlass7 from "./images/illustrations/stainedGlass/DSC_6436.JPG";
+import stainedGlass8 from "./images/illustrations/stainedGlass/DSC_6438.JPG";
+import stainedGlass9 from "./images/illustrations/stainedGlass/Raam.jpg";
+import gDBooks1 from "./images/graphicDesign/books/1 - 796A8057.jpg";
+import gDBooks2 from "./images/graphicDesign/books/2 - 796A8059 kopie.jpg";
+import gDBooks3 from "./images/graphicDesign/books/3 - Rindert van Zinderen Bakker eerste proef 310719-61.jpg";
+import gDBooks4 from "./images/graphicDesign/books/4 - Rindert van Zinderen Bakker eerste proef 310719-129.jpg";
+import gDBooks5 from "./images/graphicDesign/books/Achterkant lyts.jpg";
+import gdAssignments1 from "./images/graphicDesign/assignments/Building bridges versie 5 geen rondjes.jpg";
+import gdAssignments2 from "./images/graphicDesign/assignments/Don't shoot the messenger kleiner.jpg";
+import gdAssignments3 from "./images/graphicDesign/assignments/Engels Nina.jpg";
+import gdAssignments4 from "./images/graphicDesign/assignments/Flowchart2C small.jpg";
+import gdAssignments5 from "./images/graphicDesign/assignments/Minority Meal Monday versie 3.jpeg";
+import gdAssignments6 from "./images/graphicDesign/assignments/Minority Rights are Human Rights.jpg";
+import gdAssignments7 from "./images/graphicDesign/assignments/Spread the message2.jpg";
+import gdAssignments8 from "./images/graphicDesign/assignments/Terp of Tales optie 4.jpg";
 
 const data = {
   english: {
@@ -61,55 +96,104 @@ const data = {
       name: "Grafisch Werk",
       categories: [{ name: "Boeken" }, { name: "Assignments" }],
     },
+  },
 
-    images: {
-      [ILLUSTRATIONS]: {
-        overview: [],
-        books: {
-          abcForLittlePiantists: [
-            abcForLittlePiantists1,
-            abcForLittlePiantists2,
-            abcForLittlePiantists3,
-            abcForLittlePiantists4,
-            abcForLittlePiantists5,
-            abcForLittlePiantists6,
-            abcForLittlePiantists7,
-          ],
-          deWeddenskip: [
-            deWeddenskip1,
-            deWeddenskip2,
-            deWeddenskip3,
-            deWeddenskip4,
-            deWeddenskip5,
-            deWeddenskip6,
-            deWeddenskip7,
-            deWeddenskip8,
-            deWeddenskip9,
-            deWeddenskip10,
-          ],
-          erikOfItLytsYnsekteboek: [
-            erikOfItLytsYnsekteboek1,
-            erikOfItLytsYnsekteboek2,
-            erikOfItLytsYnsekteboek3,
-            erikOfItLytsYnsekteboek4,
-            erikOfItLytsYnsekteboek5,
-            erikOfItLytsYnsekteboek6,
-            erikOfItLytsYnsekteboek7,
-            erikOfItLytsYnsekteboek8,
-            erikOfItLytsYnsekteboek9,
-            erikOfItLytsYnsekteboek10,
-            erikOfItLytsYnsekteboek11,
-          ],
-        },
-        stainedGlass: [],
-        assignments: [],
-        freeWork: [],
+  images: {
+    [ILLUSTRATIONS]: {
+      overview: [
+        deWeddenskip1,
+        abcForLittlePiantists2,
+        deWeddenskip2,
+        assignments2,
+        erikOfItLytsYnsekteboek4,
+        erikOfItLytsYnsekteboek6,
+        stainedGlass9,
+        freeWork5,
+      ],
+      books: {
+        abcForLittlePiantists: [
+          abcForLittlePiantists1,
+          abcForLittlePiantists2,
+          abcForLittlePiantists3,
+          abcForLittlePiantists4,
+          abcForLittlePiantists5,
+          abcForLittlePiantists6,
+          abcForLittlePiantists7,
+        ],
+        deWeddenskip: [
+          deWeddenskip1,
+          deWeddenskip2,
+          deWeddenskip3,
+          deWeddenskip4,
+          deWeddenskip5,
+          deWeddenskip6,
+          deWeddenskip7,
+          deWeddenskip8,
+          deWeddenskip9,
+          deWeddenskip10,
+        ],
+        erikOfItLytsYnsekteboek: [
+          erikOfItLytsYnsekteboek1,
+          erikOfItLytsYnsekteboek2,
+          erikOfItLytsYnsekteboek3,
+          erikOfItLytsYnsekteboek4,
+          erikOfItLytsYnsekteboek5,
+          erikOfItLytsYnsekteboek6,
+          erikOfItLytsYnsekteboek7,
+          erikOfItLytsYnsekteboek8,
+          erikOfItLytsYnsekteboek9,
+          erikOfItLytsYnsekteboek10,
+          erikOfItLytsYnsekteboek11,
+        ],
       },
-      [GRAPHIC_DESIGN]: {
-        overview: [],
-        books: [],
-        assignments: [],
-      },
+      stainedGlass: [
+        stainedGlass1,
+        stainedGlass2,
+        stainedGlass3,
+        stainedGlass4,
+        stainedGlass5,
+        stainedGlass6,
+        stainedGlass7,
+        stainedGlass8,
+        stainedGlass9,
+      ],
+      assignments: [
+        assignments2,
+        assignments1,
+        assignments3,
+        assignments4,
+        assignments5,
+        assignments6,
+        assignments7,
+      ],
+      freeWork: [
+        freeWork1,
+        freeWork2,
+        freeWork3,
+        freeWork4,
+        freeWork5,
+        freeWork6,
+      ],
+    },
+    [GRAPHIC_DESIGN]: {
+      overview: [
+        gdAssignments2,
+        gdAssignments1,
+        gDBooks1,
+        gDBooks2,
+        gdAssignments8,
+      ],
+      books: [gDBooks1, gDBooks2, gDBooks3, gDBooks4, gDBooks5],
+      assignments: [
+        gdAssignments1,
+        gdAssignments2,
+        gdAssignments3,
+        gdAssignments4,
+        gdAssignments5,
+        gdAssignments6,
+        gdAssignments7,
+        gdAssignments8,
+      ],
     },
   },
 };

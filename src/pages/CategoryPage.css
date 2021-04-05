@@ -13,3 +13,20 @@
 .tag {
   font-size: 22px;
 }
+
+.image {
+  object-fit: cover;
+  display: block;
+  max-width: 400px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  opacity: 0.85;
+  padding: 6px;
+}
+
+.image:hover {
+  opacity: 1;
+  transition: 0.5s;
+  transform: scale(1.05);
+}

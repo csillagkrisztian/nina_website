@@ -10,6 +10,7 @@ export default function CategoryPage() {
   const { category } = useParams();
   const language = useSelector(getLanguage);
   const neededData = language && data[language][category];
+  console.log(data);
 
   return !language ? (
     <h1>LOADING...</h1>
@@ -36,6 +37,11 @@ export default function CategoryPage() {
                 {category.name}
               </Col>
             );
+          })}
+        </Row>
+        <Row>
+          {data.images[category].overview.map((image) => {
+            return <img className="image" src={image} />;
           })}
         </Row>
       </Container>
