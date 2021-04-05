@@ -1,0 +1,82 @@
+.parent {
+  position: relative;
+  width: 100%;
+}
+.one,
+.two,
+.three {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+
+.one:hover,
+.two:hover,
+.three:hover {
+  transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s; /* Firefox 4 */
+  -webkit-transition-duration: 0.3s; /* Safari and Chrome */
+  -o-transition-duration: 03s; /* Opera */
+}
+
+.one:hover {
+  clip-path: polygon(0 0, 100% 0, 100% 20%, 0 55%);
+  z-index: 1;
+  filter: grayscale(0%);
+}
+
+.two:hover {
+  clip-path: polygon(100% 0%, 100% 55%, 0 100%, 0 20%);
+  z-index: 1;
+  filter: grayscale(0%);
+}
+
+.three:hover {
+  clip-path: polygon(100% 25%, 0% 100%, 100% 100%);
+  z-index: 1;
+  filter: grayscale(0%);
+}
+.one {
+  background-image: linear-gradient(
+    red 0%,
+    orange 25%,
+    yellow 50%,
+    green 75%,
+    blue 100%
+  );
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 10%, 0 45%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  clip-path: polygon(0 0, 100% 0, 100% 10%, 0 45%);
+  filter: grayscale(100%);
+}
+
+.two {
+  background-image: linear-gradient(
+    red 0%,
+    orange 25%,
+    yellow 50%,
+    green 75%,
+    blue 100%
+  );
+  -webkit-clip-path: polygon(100% 10%, 100% 35%, 0 100%, 0 45%);
+  clip-path: polygon(100% 10%, 100% 35%, 0 100%, 0 45%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: grayscale(100%);
+}
+
+.three {
+  background-image: linear-gradient(
+    red 0%,
+    orange 25%,
+    yellow 50%,
+    green 75%,
+    blue 100%
+  );
+  -webkit-clip-path: polygon(100% 35%, 0% 100%, 100% 100%);
+  clip-path: polygon(100% 35%, 0% 100%, 100% 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: grayscale(100%);
+}
